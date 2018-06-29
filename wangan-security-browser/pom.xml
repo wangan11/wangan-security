@@ -3,9 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.springsecurity</groupId>
-        <artifactId>spring-security</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>com.wangan.security</groupId>
+        <artifactId>wangan-security</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../wangan-sercurity</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -13,9 +14,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.springsecurity</groupId>
+            <groupId>com.wangan.security</groupId>
             <artifactId>wangan-security-core</artifactId>
-            <version>${spring-secirity-version}</version>
+            <version>${wangan.security.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.session</groupId>
